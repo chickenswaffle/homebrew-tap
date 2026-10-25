@@ -13,8 +13,6 @@ cask "vibe-check" do
     strategy :github_latest
   end
 
-  depends_on macos: ">= :catalina"
-
   app "Vibe Check.app"
 
   caveats <<~EOS
