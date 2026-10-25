@@ -2,8 +2,7 @@ cask "vibe-check" do
   version "0.1.0"
   sha256 "23d2980143f0cf63098cf4202a4cf05510fba7b7d5ecf259096d9439f6d9324b"
 
-  url "https://github.com/chickenswaffle/vibe-check/releases/download/v#{version}/Vibe-Check-#{version}-x86_64.dmg",
-      verified: "github.com/chickenswaffle/vibe-check/"
+  url "https://github.com/chickenswaffle/vibe-check/releases/download/v#{version}/Vibe-Check-#{version}-x86_64.dmg"
   name "Vibe Check"
   desc "Pre-launch security audit for vibe-coded apps"
   homepage "https://chickenswaffle.github.io/vibe-check/"
